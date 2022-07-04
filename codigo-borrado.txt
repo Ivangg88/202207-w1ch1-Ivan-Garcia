@@ -1,0 +1,9 @@
+<input class="display" type="text" id="result" placeholder="0" readonly>
+
+   if(calculated){
+        clear();
+        currentOp = num.toString();
+        calculate = false;
+    }else {
+        currentOp = currentOp.toString() + num.toString();
+    }
